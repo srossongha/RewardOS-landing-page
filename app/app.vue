@@ -1,5 +1,12 @@
 <script setup lang="ts">
 import Header from './components/layouts/Header.vue'
+useSeoMeta({
+  title: 'RewardOS',
+  description: 'One or two sentences on what the product does.',
+  ogTitle: 'RewardOS | your short tagline',
+  ogDescription: 'Same as the description, or a shorter version.',
+  ogType: 'website',
+})
 </script>
 
 import { LandingSolution } from '../.nuxt/components'
