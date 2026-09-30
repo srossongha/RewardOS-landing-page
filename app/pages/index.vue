@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ArrowRight } from 'lucide-vue-next'
 useSeoMeta({
   title: 'RewardOS',
   description: 'One or two sentences on what the product does.',
@@ -17,6 +18,10 @@ useSeoMeta({
     </div>
     <div class="flex min-h-2000 items-center justify-center bg-slate-900">
       <h1 class="text-4xl font-bold text-white">Tailwind works</h1>
+      <NuxtLink to="/app/pages/testing-method.vue">
+        Get started
+        <ArrowRight class="size-4" />
+      </NuxtLink>
       <Button>Click me</Button>
       <Button variant="outline">Outline</Button>
       <LandingSolution />

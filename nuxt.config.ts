@@ -12,7 +12,7 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
   },
-  modules: ['@nuxt/eslint', 'shadcn-nuxt'],
+  modules: ['@nuxt/eslint', 'shadcn-nuxt', '@nuxt/fonts', '@nuxt/image'],
   css: ['~/assets/css/tailwind.css'],
   vite: {
     plugins: [tailwindcss()],

@@ -22,6 +22,15 @@ useSeoMeta({
       <LandingSolution />
     </div>
     <div>
+      <NuxtImg
+        src="/images/kamisato-ayaka-5k-3840x2160-23010.jpg"
+        alt="Describe the image"
+        width="800"
+        height="500"
+        format="webp"
+        loading="lazy"
+        class="rounded-xl"
+      />
       <div data-lenis-prevent class="max-h-64 overflow-y-auto max-w-64">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ducimus deleniti quis
         illo distinctio veritatis tenetur autem, voluptas, temporibus aperiam amet. Quia sunt
